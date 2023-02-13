@@ -10,10 +10,20 @@
 		5B8089F868880AA3B14EEE76 /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A366471A6D2AD79F13238E5E /* Pods_UberClone.framework */; };
 		D53B9F0F299A2466007DA758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F0E299A2466007DA758 /* AppDelegate.swift */; };
 		D53B9F11299A2466007DA758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F10299A2466007DA758 /* SceneDelegate.swift */; };
-		D53B9F13299A2466007DA758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F12299A2466007DA758 /* ViewController.swift */; };
+		D53B9F13299A2466007DA758 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F12299A2466007DA758 /* HomeVC.swift */; };
 		D53B9F16299A2466007DA758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53B9F14299A2466007DA758 /* Main.storyboard */; };
 		D53B9F18299A2468007DA758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53B9F17299A2468007DA758 /* Assets.xcassets */; };
 		D53B9F1B299A2468007DA758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53B9F19299A2468007DA758 /* LaunchScreen.storyboard */; };
+		D53B9F26299A65BF007DA758 /* GradientVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F25299A65BF007DA758 /* GradientVew.swift */; };
+		D53B9F28299AA20E007DA758 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F27299AA20E007DA758 /* RoundedImageView.swift */; };
+		D53B9F2A299AA378007DA758 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F29299AA378007DA758 /* RoundedShadowView.swift */; };
+		D53B9F2C299AA567007DA758 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F2B299AA567007DA758 /* CircleView.swift */; };
+		D53B9F2E299AA7DB007DA758 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F2D299AA7DB007DA758 /* RoundedShadowButton.swift */; };
+		D53B9F31299ABC00007DA758 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F30299ABC00007DA758 /* UIViewExt.swift */; };
+		D53B9F33299AC8B1007DA758 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F32299AC8B1007DA758 /* LeftSidePanelVC.swift */; };
+		D53B9F35299AC942007DA758 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F34299AC942007DA758 /* ContainerVC.swift */; };
+		D53B9F38299ACBD4007DA758 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */; };
+		D53B9F3A299ADA74007DA758 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F39299ADA74007DA758 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +33,21 @@
 		D53B9F0B299A2466007DA758 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53B9F0E299A2466007DA758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53B9F10299A2466007DA758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D53B9F12299A2466007DA758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53B9F12299A2466007DA758 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D53B9F15299A2466007DA758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D53B9F17299A2468007DA758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D53B9F1A299A2468007DA758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D53B9F1C299A2468007DA758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53B9F25299A65BF007DA758 /* GradientVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientVew.swift; sourceTree = "<group>"; };
+		D53B9F27299AA20E007DA758 /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		D53B9F29299AA378007DA758 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		D53B9F2B299AA567007DA758 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D53B9F2D299AA7DB007DA758 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		D53B9F30299ABC00007DA758 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		D53B9F32299AC8B1007DA758 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		D53B9F34299AC942007DA758 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		D53B9F39299ADA74007DA758 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +68,6 @@
 				C726CD2E5573FDFE1B370E4E /* Pods-UberClone.debug.xcconfig */,
 				432AACD971D8CE942D00AE51 /* Pods-UberClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +100,65 @@
 		D53B9F0D299A2466007DA758 /* UberClone */ = {
 			isa = PBXGroup;
 			children = (
+				D53B9F36299ACBC1007DA758 /* Protocols */,
+				D53B9F2F299ABBE8007DA758 /* Extensions */,
+				D53B9F24299A64C6007DA758 /* Views */,
+				D53B9F23299A64BA007DA758 /* Controller */,
+				D53B9F22299A64B2007DA758 /* Model */,
 				D53B9F0E299A2466007DA758 /* AppDelegate.swift */,
 				D53B9F10299A2466007DA758 /* SceneDelegate.swift */,
-				D53B9F12299A2466007DA758 /* ViewController.swift */,
 				D53B9F14299A2466007DA758 /* Main.storyboard */,
 				D53B9F17299A2468007DA758 /* Assets.xcassets */,
 				D53B9F19299A2468007DA758 /* LaunchScreen.storyboard */,
 				D53B9F1C299A2468007DA758 /* Info.plist */,
 			);
 			path = UberClone;
+			sourceTree = "<group>";
+		};
+		D53B9F22299A64B2007DA758 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D53B9F23299A64BA007DA758 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D53B9F34299AC942007DA758 /* ContainerVC.swift */,
+				D53B9F12299A2466007DA758 /* HomeVC.swift */,
+				D53B9F32299AC8B1007DA758 /* LeftSidePanelVC.swift */,
+				D53B9F39299ADA74007DA758 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D53B9F24299A64C6007DA758 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D53B9F25299A65BF007DA758 /* GradientVew.swift */,
+				D53B9F27299AA20E007DA758 /* RoundedImageView.swift */,
+				D53B9F29299AA378007DA758 /* RoundedShadowView.swift */,
+				D53B9F2B299AA567007DA758 /* CircleView.swift */,
+				D53B9F2D299AA7DB007DA758 /* RoundedShadowButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D53B9F2F299ABBE8007DA758 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D53B9F30299ABC00007DA758 /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D53B9F36299ACBC1007DA758 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53B9F13299A2466007DA758 /* ViewController.swift in Sources */,
+				D53B9F31299ABC00007DA758 /* UIViewExt.swift in Sources */,
+				D53B9F26299A65BF007DA758 /* GradientVew.swift in Sources */,
+				D53B9F28299AA20E007DA758 /* RoundedImageView.swift in Sources */,
+				D53B9F2A299AA378007DA758 /* RoundedShadowView.swift in Sources */,
+				D53B9F13299A2466007DA758 /* HomeVC.swift in Sources */,
 				D53B9F0F299A2466007DA758 /* AppDelegate.swift in Sources */,
+				D53B9F38299ACBD4007DA758 /* CenterVCDelegate.swift in Sources */,
+				D53B9F2C299AA567007DA758 /* CircleView.swift in Sources */,
 				D53B9F11299A2466007DA758 /* SceneDelegate.swift in Sources */,
+				D53B9F3A299ADA74007DA758 /* LoginVC.swift in Sources */,
+				D53B9F2E299AA7DB007DA758 /* RoundedShadowButton.swift in Sources */,
+				D53B9F33299AC8B1007DA758 /* LeftSidePanelVC.swift in Sources */,
+				D53B9F35299AC942007DA758 /* ContainerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
