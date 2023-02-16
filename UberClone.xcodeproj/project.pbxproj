@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B8089F868880AA3B14EEE76 /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A366471A6D2AD79F13238E5E /* Pods_UberClone.framework */; };
+		D5061CC5299CF1A40046EFD6 /* PickupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5061CC4299CF1A40046EFD6 /* PickupVC.swift */; };
+		D5061CC7299CF1E10046EFD6 /* RoundMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5061CC6299CF1E10046EFD6 /* RoundMapView.swift */; };
 		D53B9F0F299A2466007DA758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F0E299A2466007DA758 /* AppDelegate.swift */; };
 		D53B9F11299A2466007DA758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F10299A2466007DA758 /* SceneDelegate.swift */; };
 		D53B9F13299A2466007DA758 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F12299A2466007DA758 /* HomeVC.swift */; };
@@ -24,12 +26,24 @@
 		D53B9F35299AC942007DA758 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F34299AC942007DA758 /* ContainerVC.swift */; };
 		D53B9F38299ACBD4007DA758 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */; };
 		D53B9F3A299ADA74007DA758 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9F39299ADA74007DA758 /* LoginVC.swift */; };
+		D56B75CB299B80C3002F9589 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75CA299B80C3002F9589 /* DataService.swift */; };
+		D56B75CD299B8AB5002F9589 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75CC299B8AB5002F9589 /* Alertable.swift */; };
+		D56B75CF299B9257002F9589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56B75CE299B9257002F9589 /* GoogleService-Info.plist */; };
+		D56B75D1299BB546002F9589 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75D0299BB546002F9589 /* RoundImageView.swift */; };
+		D56B75D3299BCA2C002F9589 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75D2299BCA2C002F9589 /* UpdateService.swift */; };
+		D56B75D5299BCFD4002F9589 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75D4299BCFD4002F9589 /* DriverAnnotation.swift */; };
+		D56B75D7299BD0AF002F9589 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75D6299BD0AF002F9589 /* PassengerAnnotation.swift */; };
+		D56B75D9299BE255002F9589 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56B75D8299BE255002F9589 /* UIViewControllerExt.swift */; };
+		D59182F4299AE0510080D98F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59182F3299AE0510080D98F /* Constants.swift */; };
+		D59182F6299AE0B40080D98F /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59182F5299AE0B40080D98F /* RoundedCornerTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		432AACD971D8CE942D00AE51 /* Pods-UberClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.release.xcconfig"; path = "Target Support Files/Pods-UberClone/Pods-UberClone.release.xcconfig"; sourceTree = "<group>"; };
 		A366471A6D2AD79F13238E5E /* Pods_UberClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C726CD2E5573FDFE1B370E4E /* Pods-UberClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.debug.xcconfig"; path = "Target Support Files/Pods-UberClone/Pods-UberClone.debug.xcconfig"; sourceTree = "<group>"; };
+		D5061CC4299CF1A40046EFD6 /* PickupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupVC.swift; sourceTree = "<group>"; };
+		D5061CC6299CF1E10046EFD6 /* RoundMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundMapView.swift; sourceTree = "<group>"; };
 		D53B9F0B299A2466007DA758 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53B9F0E299A2466007DA758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53B9F10299A2466007DA758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +62,16 @@
 		D53B9F34299AC942007DA758 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		D53B9F39299ADA74007DA758 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D56B75CA299B80C3002F9589 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D56B75CC299B8AB5002F9589 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		D56B75CE299B9257002F9589 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D56B75D0299BB546002F9589 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		D56B75D2299BCA2C002F9589 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		D56B75D4299BCFD4002F9589 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		D56B75D6299BD0AF002F9589 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
+		D56B75D8299BE255002F9589 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		D59182F3299AE0510080D98F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D59182F5299AE0B40080D98F /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +124,8 @@
 		D53B9F0D299A2466007DA758 /* UberClone */ = {
 			isa = PBXGroup;
 			children = (
+				D56B75C9299B80B0002F9589 /* Services */,
+				D59182F2299AE03E0080D98F /* Resources */,
 				D53B9F36299ACBC1007DA758 /* Protocols */,
 				D53B9F2F299ABBE8007DA758 /* Extensions */,
 				D53B9F24299A64C6007DA758 /* Views */,
@@ -110,6 +136,7 @@
 				D53B9F14299A2466007DA758 /* Main.storyboard */,
 				D53B9F17299A2468007DA758 /* Assets.xcassets */,
 				D53B9F19299A2468007DA758 /* LaunchScreen.storyboard */,
+				D56B75CE299B9257002F9589 /* GoogleService-Info.plist */,
 				D53B9F1C299A2468007DA758 /* Info.plist */,
 			);
 			path = UberClone;
@@ -129,6 +156,7 @@
 				D53B9F12299A2466007DA758 /* HomeVC.swift */,
 				D53B9F32299AC8B1007DA758 /* LeftSidePanelVC.swift */,
 				D53B9F39299ADA74007DA758 /* LoginVC.swift */,
+				D5061CC4299CF1A40046EFD6 /* PickupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -141,6 +169,11 @@
 				D53B9F29299AA378007DA758 /* RoundedShadowView.swift */,
 				D53B9F2B299AA567007DA758 /* CircleView.swift */,
 				D53B9F2D299AA7DB007DA758 /* RoundedShadowButton.swift */,
+				D59182F5299AE0B40080D98F /* RoundedCornerTextField.swift */,
+				D56B75D0299BB546002F9589 /* RoundImageView.swift */,
+				D56B75D4299BCFD4002F9589 /* DriverAnnotation.swift */,
+				D56B75D6299BD0AF002F9589 /* PassengerAnnotation.swift */,
+				D5061CC6299CF1E10046EFD6 /* RoundMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				D53B9F30299ABC00007DA758 /* UIViewExt.swift */,
+				D56B75D8299BE255002F9589 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,9 +190,27 @@
 		D53B9F36299ACBC1007DA758 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				D56B75CC299B8AB5002F9589 /* Alertable.swift */,
 				D53B9F37299ACBD4007DA758 /* CenterVCDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D56B75C9299B80B0002F9589 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D56B75CA299B80C3002F9589 /* DataService.swift */,
+				D56B75D2299BCA2C002F9589 /* UpdateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D59182F2299AE03E0080D98F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D59182F3299AE0510080D98F /* Constants.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53B9F1B299A2468007DA758 /* LaunchScreen.storyboard in Resources */,
+				D56B75CF299B9257002F9589 /* GoogleService-Info.plist in Resources */,
 				D53B9F18299A2468007DA758 /* Assets.xcassets in Resources */,
 				D53B9F16299A2466007DA758 /* Main.storyboard in Resources */,
 			);
@@ -280,15 +333,26 @@
 				D53B9F26299A65BF007DA758 /* GradientVew.swift in Sources */,
 				D53B9F28299AA20E007DA758 /* RoundedImageView.swift in Sources */,
 				D53B9F2A299AA378007DA758 /* RoundedShadowView.swift in Sources */,
+				D5061CC5299CF1A40046EFD6 /* PickupVC.swift in Sources */,
+				D56B75D7299BD0AF002F9589 /* PassengerAnnotation.swift in Sources */,
+				D5061CC7299CF1E10046EFD6 /* RoundMapView.swift in Sources */,
+				D56B75D5299BCFD4002F9589 /* DriverAnnotation.swift in Sources */,
+				D56B75D3299BCA2C002F9589 /* UpdateService.swift in Sources */,
 				D53B9F13299A2466007DA758 /* HomeVC.swift in Sources */,
 				D53B9F0F299A2466007DA758 /* AppDelegate.swift in Sources */,
 				D53B9F38299ACBD4007DA758 /* CenterVCDelegate.swift in Sources */,
+				D56B75CB299B80C3002F9589 /* DataService.swift in Sources */,
 				D53B9F2C299AA567007DA758 /* CircleView.swift in Sources */,
+				D56B75D9299BE255002F9589 /* UIViewControllerExt.swift in Sources */,
+				D59182F6299AE0B40080D98F /* RoundedCornerTextField.swift in Sources */,
 				D53B9F11299A2466007DA758 /* SceneDelegate.swift in Sources */,
 				D53B9F3A299ADA74007DA758 /* LoginVC.swift in Sources */,
+				D56B75CD299B8AB5002F9589 /* Alertable.swift in Sources */,
 				D53B9F2E299AA7DB007DA758 /* RoundedShadowButton.swift in Sources */,
+				D59182F4299AE0510080D98F /* Constants.swift in Sources */,
 				D53B9F33299AC8B1007DA758 /* LeftSidePanelVC.swift in Sources */,
 				D53B9F35299AC942007DA758 /* ContainerVC.swift in Sources */,
+				D56B75D1299BB546002F9589 /* RoundImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
